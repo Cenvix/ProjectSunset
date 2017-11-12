@@ -132,11 +132,44 @@
        <center>
 
 	       	<div class="countdown" style = "margin-top: 30px; word-spacing: 30px">
-				<h3 id = "timer" style="font-size: 30px"></h3>
-			
-				<div class="countdownLabels" style="word-spacing: 70px">
-					<p>DAYS	HRS	MINS SEC</p>
-				</div>
+                <table>
+                    <tr>
+                    
+                        <th width="50"><h3 id = "timer_day" style="font-size: 30px"></h3></th>
+                            <th width="50"><h3 style="font-size: 30px">:</h3></th>
+                        <th width="50"><h3 id = "timer_hour" style="font-size: 30px"></h3></th>
+                            <th width="50"><h3 style="font-size: 30px">:</h3></th>
+                        <th width="50"><h3 id = "timer_min" style="font-size: 30px"></h3></th>
+                            <th width="50"><h3 style="font-size: 30px">:</h3></th>
+                        <th width="50"><h3 id = "timer_sec" style="font-size: 30px"></h3></th>
+                    </tr>
+                    
+                    <tr>
+                        <td width="50" align="center"><div class="countdownLabels" >
+					       DAYS
+				        </div></td>
+                            <td width="50"><div class="countdownLabels" >
+                               &nbsp;
+                            </div></td>
+                        <td width="50" align="center"><div class="countdownLabels" >
+					       HRS
+				        </div></td>
+                            <td width="50" ><div class="countdownLabels" >
+                               &nbsp;
+                            </div></td>
+                        <td width="50" align="center"><div class="countdownLabels" >
+					       MINS
+				        </div></td>
+                            <td width="50"><div class="countdownLabels" >
+                               &nbsp;
+                            </div></td>
+                        <td width="50" align="center"><div class="countdownLabels" >
+					       SEC
+				        </div></td>
+                    </tr>
+                </table>
+				
+				
 			</div>
 
        </center>
@@ -477,8 +510,10 @@ src="https://www.youtube.com/embed/iAyuE-neCeM">
 		    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 		    // Output the result in an element with id="timer"
-		    document.getElementById("timer").innerHTML = days + " : " + hours + " : "
-		    + minutes + " : " + seconds;
+		    document.getElementById("timer_day").innerHTML = days;
+		    document.getElementById("timer_hour").innerHTML = hours;
+		    document.getElementById("timer_min").innerHTML = minutes;
+		    document.getElementById("timer_sec").innerHTML = seconds;
 		    
 		    
 		    // If the count down is over, write some text 
