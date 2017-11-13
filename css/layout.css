@@ -29,11 +29,12 @@ body { background: #0f0f0f; }
 /* ------------------------------------------------------------------ */
 
 header {
-   position: relative;
-   height: 768px;
-   width: 100%;
+   position:relative;
+   height: auto;
+   width: auto;
    background: url(https://78.media.tumblr.com/fd787f27f8f6f63ca4351afe6fccb56a/tumblr_oz70v8JNmS1vrnhedo1_1280.png);
-   -webkit-background-size: 1366px 768px !important;
+   background-size: cover;
+   background-position: bottom left;
    text-align: center;
    overflow: hidden;
 }
@@ -186,10 +187,11 @@ ul#nav li.current a { color: #F06000; }
 
 #about {
    position: relative;
-   height: 768px;
+   height: 100%;
    width: 100%;
    background-image: url("https://78.media.tumblr.com/29fd1980a0f7ba293da1ed78dc16dca0/tumblr_oz9ex8gy1y1vrnhedo1_1280.png");
-  -webkit-background-size: 1366px 768px !important;
+   background-size: cover;
+   background-position: top left;
    text-align: center;
    overflow: hidden;
 }
