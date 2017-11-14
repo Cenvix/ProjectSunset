@@ -160,13 +160,15 @@
  * DIN
 ============================================================================*/
 @font-face {
-    font-family: 'din-sreg';
+    font-family: 'din-reg';
     src: url('fonts/dinnextltpro/DINNEXTLTPRO-REGULAR_0.otf');
-    src: url('fonts/dinnextltpro/DINNEXTLTPRO-REGULAR_0.eot?#iefix') format('embedded-opentype'),
-         url('fonts/dinnextltpro/DINNEXTLTPRO-REGULAR_0.otf') format('opentype'),
-         url('fonts/dinnextltpro/DINNEXTLTPRO-REGULAR_0.woff') format('woff'),
-         url('fonts/dinnextltpro/DINNEXTLTPRO-REGULAR_0.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'din-reg';
+    src: url('fonts/dinnextltpro/DINNEXTLTPRO-BOLD_0.otf');
+    font-weight: bold;
+    font-style: normal;
+}

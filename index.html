@@ -22,7 +22,7 @@
 	<link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
-   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900" rel="stylesheet">
+   <!--<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900" rel="stylesheet">-->
 
    <style>
 
@@ -92,6 +92,22 @@
     
     }
 
+       
+       #countdownTable tr{
+           height: 10px;
+       }
+       
+       #countdownTable tr th h1{
+           height: 40px;
+       }
+       
+       
+        #countdownTable tr th{
+           width: 50px; 
+       }
+
+    
+
    </style>
 
    <!-- Script
@@ -127,52 +143,42 @@
 
       <div class="row banner">
 
-        <img src="elements/01 Main Page/Logo-1.png" style="max-width: 40%; max-height: 20%; margin-top:20px; margin-bottom: 10px"> </img>
-	    <div class="banner-text">
-
-        	<h3>
-        	THE 15TH ANNUAL INTERCOLLEGIATE</br>
-        	DIGITAL FILM COMPETITION
-        	</h3>
-
-        </div>
-       
-
-       <center>
-
-	       	<div class="countdown" style = "margin-top: 30px; word-spacing: 30px">
-                <table>
+        <div id="countdownRow">
+            <center>
+            <div class="banner-text">
+            <div class="countdown" style = "margin-bottom: : 50px; word-spacing: 30px">
+                <table id="countdownTable">
                     <tr>
                     
-                        <th width="50"><h3 id = "timer_day" style="font-size: 30px"></h3></th>
-                            <th width="50"><h3 style="font-size: 30px">:</h3></th>
-                        <th width="50"><h3 id = "timer_hour" style="font-size: 30px"></h3></th>
-                            <th width="50"><h3 style="font-size: 30px">:</h3></th>
-                        <th width="50"><h3 id = "timer_min" style="font-size: 30px"></h3></th>
-                            <th width="50"><h3 style="font-size: 30px">:</h3></th>
-                        <th width="50"><h3 id = "timer_sec" style="font-size: 30px"></h3></th>
+                        <th><h1 id = "timer_day" ></h1></th>
+                            <th><h1 >:</h1></th>
+                        <th><h1 id = "timer_hour" ></h1></th>
+                            <th><h1 >:</h1></th>
+                        <th><h1 id = "timer_min" ></h1></th>
+                            <th><h1 >:</h1></th>
+                        <th><h1 id = "timer_sec" ></h1></th>
                     </tr>
                     
                     <tr>
-                        <td width="50" align="center"><div class="countdownLabels" >
+                        <td align="center"><div class="countdownLabels" >
 					       DAYS
 				        </div></td>
-                            <td width="50"><div class="countdownLabels" >
+                            <td ><div class="countdownLabels" >
                                &nbsp;
                             </div></td>
-                        <td width="50" align="center"><div class="countdownLabels" >
+                        <td  align="center"><div class="countdownLabels" >
 					       HRS
 				        </div></td>
-                            <td width="50" ><div class="countdownLabels" >
+                            <td  ><div class="countdownLabels" >
                                &nbsp;
                             </div></td>
-                        <td width="50" align="center"><div class="countdownLabels" >
+                        <td  align="center"><div class="countdownLabels" >
 					       MINS
 				        </div></td>
-                            <td width="50"><div class="countdownLabels" >
+                            <td><div class="countdownLabels" >
                                &nbsp;
                             </div></td>
-                        <td width="50" align="center"><div class="countdownLabels" >
+                        <td align="center"><div class="countdownLabels" >
 					       SEC
 				        </div></td>
                     </tr>
@@ -181,9 +187,32 @@
 				
 			</div>
            
-				<h2>DEADLINE OF SUBMISSION</h2>
+                <svg height="5" width="300">
+                    <line x1="0" y1="0" x2="300" y2="0" style="stroke:#DB1947;stroke-width:5" />
+                </svg>
+				<h4 style="margin: 0px; height: 5px; line-height: 10px;">DEADLINE OF SUBMISSION</h4>
+                <svg height="5" width="300">
+                    <line x1="0" y1="0" x2="300" y2="0" style="stroke:#DB1947;stroke-width:5" />
+                </svg>
+            </div>
+	       	
 
-       </center>
+            </center>
+        </div>
+  
+          
+        <img src="elements/01 Main Page/Logo-1.png" style="max-width: 50%; max-height: 50%; margin-top:20px; margin-bottom: 30px"> </img>
+	    <div class="banner-text">
+
+        	<h2>
+        	THE 15TH ANNUAL INTERCOLLEGIATE</br>
+        	DIGITAL FILM COMPETITION
+        	</h2>
+
+        </div>  
+       
+
+    
 		
 		
 			<!-- <br><button style="background-color: rgb(234,84,60); line-height: 0.5;">BUY TICKETS</button> -->
