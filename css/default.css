@@ -143,11 +143,11 @@ html {
 
 body {
    background: #fff;
-   font-family: 'montserrat', sans-serif;
+   font-family: 'din-reg';
    font-weight: normal;
    font-size: 15px;
    line-height: 30px;
-	color: #838C95;
+	color: #141418;
 
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
@@ -158,8 +158,8 @@ body {
 --------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-   color: #313131;
-	font-family: 'montserrat', sans-serif;
+   color: #141418;
+	font-family: 'din-reg';
    font-weight: normal;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -296,7 +296,7 @@ a, a:visited {
    -o-transition: color .3s ease-in-out;
    transition: color .3s ease-in-out;
 }
-a:hover, a:focus { color: #313131; }
+a:hover, a:focus { color: #141418; }
 p a, p a:visited { line-height: inherit; }
 
 

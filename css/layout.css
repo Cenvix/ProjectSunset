@@ -68,9 +68,10 @@ header .banner-text h1 {
 }
 
 header .banner-text h2 {
-   font: bold 35px/1.9em 'din-reg';
+   font: bold 30px/1.9em 'din-reg';
    margin: 0 auto;
-    line-height: normal;
+   line-height: normal;
+    
 }
 
 header .banner-text h3 {
@@ -79,7 +80,7 @@ header .banner-text h3 {
 }
 
 header .banner-text h4 {
-   font: bold 25px/1.9em 'din-reg';
+   font: bold 150%/1.9em 'din-reg';
    margin: 0 auto;
 }
 
@@ -144,7 +145,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'Montserrat', sans-serif;
+   font: 12px 'din-reg';
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -156,13 +157,15 @@ header .scrolldown a:hover { color: #11ABB0; }
 }
 .opaque { background-color: rgb(247,248,249); }
 
+
 /* hide toggle button */
-#nav-wrap > a.mobile-btn { display: none; }
+#nav-wrap > a.mobile-btn { display: none; background-color: #EE886F}
 
 ul#nav {
    min-height: 48px;
    width: auto;
 
+    
    /* center align the menu */
    text-align: center;
 }
@@ -183,7 +186,7 @@ ul#nav li a {
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: #222;
+   color: #141418;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -192,8 +195,8 @@ ul#nav li a {
 	transition: color .2s ease-in-out;
 }
 
-ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li a:active { background-color: transparent !important; color: }
+ul#nav li.current a { color: #DB1947; }
 
 
 /* ------------------------------------------------------------------ */
@@ -204,11 +207,12 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
    height: 100%;
    width: 100%;
-   background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(170,216,206,.6) 100%);
+   background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(170,216,206,.7) 90%);
    /*background-image: url("https://78.media.tumblr.com/29fd1980a0f7ba293da1ed78dc16dca0/tumblr_oz9ex8gy1y1vrnhedo1_1280.png");
    background-size: cover;
    background-position: top left;
 */
+    padding: 50px;
    text-align: center;
    overflow: hidden;
 }
