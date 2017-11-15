@@ -435,7 +435,9 @@ ul#nav li.current a { color: #DB1947; }
 /* ------------------------------------------------------------------ */
 
 #categories {
-   background: #ebeeee;
+    
+   
+   background: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(170,216,206,.7) 90%);
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -446,6 +448,14 @@ ul#nav li.current a { color: #DB1947; }
    text-align: center;
    margin-bottom: 48px;
    color: #95A3A3;
+}
+
+#categories h3 {
+   font: bold 15px/24px 'din-reg';
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 48px;
 }
 
 /* categories Content */
