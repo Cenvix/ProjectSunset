@@ -516,21 +516,23 @@ ul#nav li.current a { color: #DB1947; }
 #categories-wrapper .columns { margin-bottom: 36px; }
 
 .categories-item{
-      width: 250px;
-      height: 250px;
-      background-color: #ffffff;
-      border-radius: 250px;
-      padding: 20px;
-      display: inline-block;
-      text-align: center;
-      margin: 20px 75px 25px 75px;
+    width: 250px;
+    height: 250px;
+    background-color: #ffffff;
+    border-radius: 250px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 75px 25px 75px;
+    position: relative;
+
+
     
-    
-   -webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .categories-item .item-wrap {
