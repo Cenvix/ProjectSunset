@@ -451,11 +451,11 @@ ul#nav li.current a { color: #DB1947; }
 }
 
 #categories .categories-item .category-title {
-   font: Bold 15px/24px 'din-reg';
+   font: 20px/24px 'bigjohn';
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
-    margin-top: 60%;
+    margin-top: 50%;
     
     
     -webkit-transition: all 0.7s ease-in-out;
@@ -466,7 +466,7 @@ ul#nav li.current a { color: #DB1947; }
 }
 
 #categories .categories-item .category-desc {
-   font: 15px/24px 'din-reg';
+   font: bold 17px/24px 'din-reg';
     width: 80%
    text-align: center;
     line-height: 0px;

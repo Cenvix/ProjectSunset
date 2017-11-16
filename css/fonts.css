@@ -172,3 +172,11 @@
     font-weight: bold;
     font-style: normal;
 }
+
+
+@font-face {
+    font-family: 'bigjohn';
+    src: url('fonts/bigjohn/BIGJOHN.otf');
+    font-weight: normal;
+    font-style: normal;
+}
