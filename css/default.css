@@ -143,7 +143,7 @@ html {
 
 body {
    background: #fff;
-   font-family: 'din-reg';
+   font-family: 'Montserrat';
    font-weight: normal;
    font-size: 15px;
    line-height: 30px;
@@ -159,7 +159,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
    color: #141418;
-	font-family: 'din-reg';
+	font-family: 'Montserrat';
    font-weight: normal;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -180,8 +180,8 @@ p.lead {
 
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
 the body tag due to rendering problems in some browsers */
-em { font: 15px/30px 'opensans-italic', sans-serif; }
-strong, b { font: 15px/30px 'opensans-bold', sans-serif; }
+em { font: italic 15px/30px 'Montserrat', sans-serif; }
+strong, b { font: bold 15px/30px 'Montserrat', sans-serif; }
 small { font-size: 11px; line-height: inherit; }
 
 /*	Blockquotes */

@@ -60,27 +60,27 @@ header .banner {
 }
 
 header .banner-text { width: 100%; 
-font: 18px/1.9em 'din-reg';
+font: 18px/1.9em 'Montserrat';
 }
 header .banner-text h1 {
-   font: bold 40px/1.9em 'din-reg';
+   font: bold 40px/1.9em 'Montserrat';
    margin: 0 auto;
 }
 
 header .banner-text h2 {
-   font: bold 30px/1.9em 'din-reg';
+   font: bold 30px/1.9em 'Montserrat';
    margin: 0 auto;
    line-height: normal;
     
 }
 
 header .banner-text h3 {
-   font: bold 25px/1.9em 'din-reg';
+   font: bold 25px/1.9em 'Montserrat';
    margin: 0 auto;
 }
 
 header .banner-text h4 {
-   font: bold 150%/1.9em 'din-reg';
+   font: bold 120%/1.9em 'Montserrat';
    margin: 0 auto;
 }
 
@@ -145,7 +145,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 
 /* nav-wrap */
 #nav-wrap {
-   font: 12px 'din-reg';
+   font: 12px 'Montserrat';
    width: 100%;
    text-transform: uppercase;
    letter-spacing: 2.5px;
@@ -466,8 +466,8 @@ ul#nav li.current a { color: #DB1947; }
 }
 
 #categories .categories-item .category-desc {
-   font: bold 17px/24px 'din-reg';
-    width: 80%
+   font:600 15px/24px 'Montserrat';
+    width: 90%
    text-align: center;
     line-height: 140%;
     
@@ -677,6 +677,80 @@ ul#nav li.current a { color: #DB1947; }
 /* content fadeout */
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
    opacity: 0;
+}
+
+
+
+/* ------------------------------------------------------------------ */
+/* eeee. How to Join Section
+/* ------------------------------------------------------------------ */
+
+#howtojoin {
+  margin-top: 50px; margin-bottom: 50px;
+    
+    padding-top: 100px;
+}
+#howtojoin h1 {
+   font: 18px/24px 'Montserrat', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #fff;
+}
+#howtojoin h1 span { display: none; }
+#howtojoin .header-col h1:before {
+   font-family: 'FontAwesome';
+   content: "\f0ac";
+	padding-right: 10px;
+	font-size: 72px;
+   line-height: 72px;
+   text-align: left;
+   float: left;
+   color: #fff;
+}
+#howtojoin .action {
+   margin-top: 12px;
+}
+#howtojoin h2 {
+   font: 28px/36px 'Montserrat', sans-serif;
+   color: #141418;
+   margin-bottom: 6px;
+}
+#howtojoin h2 a {
+   color: inherit;
+}
+#howtojoin p {
+   color: #636363;
+   font-size: 17px;
+}
+
+#howtojoin button.BTNred {
+	background-color: #DB1947;
+    width: 250px;
+}
+
+#howtojoin button.BTNwhite {
+	background-color: #F2F7FC;
+    width: 250px;
+    border: 5px solid #DB1947;
+    color:#DB1947;
+    padding: 7px;
+}
+
+#howtojoin button.BTNred:hover,
+#howtojoin button.BTNred:active {
+   background-color: #EE886F; 
+    color: #F2F7FC;
+}
+
+#howtojoin button.BTNwhite:hover,
+#howtojoin button.BTNwhite:active {
+   border-color: #EE886F; 
+    color: #EE886F;
+}
+
+#howtojoin p span {
+	font-family: 'opensans-semibold', sans-serif;
+	color: #D8D8D8;
 }
 
 /* ------------------------------------------------------------------ */
