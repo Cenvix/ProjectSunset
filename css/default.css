@@ -485,7 +485,7 @@ input[type="button"] {
    -moz-border-radius: 3px;
    -webkit-border-radius: 3px;
    -khtml-border-radius: 3px;
-   border-radius: 3px;
+   border-radius: 0px;
 }
 
 .button:hover,
@@ -731,7 +731,7 @@ properly.
 	   float: none;
 	   margin-left: 0;
 	   margin-right: 0;
-      padding: 0 30px;
+      padding: 0 0px;
    }
    .row .row { width: auto; max-width: none; margin: 0 -30px; }
 

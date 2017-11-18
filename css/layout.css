@@ -74,6 +74,14 @@ header .banner-text h2 {
     
 }
 
+@media screen and (max-width: 500px){
+    header .banner-text h2 {
+   font-size: 19px;
+    
+    }
+
+}
+
 header .banner-text h3 {
    font: bold 25px/1.9em 'Montserrat';
    margin: 0 auto;
@@ -225,10 +233,17 @@ ul#nav li.current a { color: #DB1947; }
    color: #fff;
    margin-bottom: 12px;
 }
-#about p {
-   line-height: 30px;
-   color: #000;
+#about p,b {
+   line-height: 175%; font-size: 25px; text-align: justify;
 }
+
+@media screen and (max-width: 600px){
+    #about p,b {
+   line-height: 175%; font-size: 15px; text-align: justify;
+    }
+
+}
+
 #about .profile-pic {
    position: relative;
    width: 120px;
@@ -466,7 +481,7 @@ ul#nav li.current a { color: #DB1947; }
 }
 
 #categories .categories-item .category-desc {
-   font:600 15px/24px 'Montserrat';
+   font:600 125% 'Montserrat';
     width: 90%
    text-align: center;
     line-height: 140%;
@@ -518,16 +533,16 @@ ul#nav li.current a { color: #DB1947; }
 #categories-wrapper .columns { margin-bottom: 36px; }
 
 .categories-item{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     background-color: #EE886F;
     background: url(elements/03_Categories/Circles/Desc.png);
-    background-size: contain;
+    background-size: cover;
     border-radius: 250px;
-    padding: 20px;
+    padding: 25px;
     display: inline-block;
     text-align: center;
-    margin: 20px 75px 25px 75px;
+    margin: 2% 5% 2% 5%;
     position: relative;
 
 
@@ -686,9 +701,9 @@ ul#nav li.current a { color: #DB1947; }
 /* ------------------------------------------------------------------ */
 
 #howtojoin {
-  margin-top: 50px; margin-bottom: 50px;
     
-    padding-top: 100px;
+    position: relative;
+    padding: 5%
 }
 #howtojoin h1 {
    font: 18px/24px 'Montserrat', sans-serif;
@@ -711,10 +726,19 @@ ul#nav li.current a { color: #DB1947; }
    margin-top: 12px;
 }
 #howtojoin h2 {
-   font: 28px/36px 'Montserrat', sans-serif;
+   font: 30px 'opensans-semibold', sans-serif;
    color: #141418;
    margin-bottom: 6px;
 }
+
+@media screen and (orientation:landscape){
+    #howtojoin h2 {
+        font: 3vw 'opensans-semibold', sans-serif;
+        color: #141418;
+        margin-bottom: 6px;
+    }
+}
+
 #howtojoin h2 a {
    color: inherit;
 }
@@ -723,14 +747,19 @@ ul#nav li.current a { color: #DB1947; }
    font-size: 17px;
 }
 
+#howtojoin button{
+    font: 200%'opensans-semibold', sans-serif;
+    min-width: 250px;
+    width: 30%;
+}
+
 #howtojoin button.BTNred {
 	background-color: #DB1947;
-    width: 250px;
+    
 }
 
 #howtojoin button.BTNwhite {
-	background-color: #F2F7FC;
-    width: 250px;
+	background-color: #F2F7FC; 
     border: 5px solid #DB1947;
     color:#DB1947;
     padding: 7px;
@@ -742,7 +771,7 @@ ul#nav li.current a { color: #DB1947; }
     color: #F2F7FC;
 }
 
-#howtojoin button.BTNwhite:hover,
+#howtojoin button.BTNwhite:hover,   
 #howtojoin button.BTNwhite:active {
    border-color: #EE886F; 
     color: #EE886F;
