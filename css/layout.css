@@ -782,6 +782,77 @@ ul#nav li.current a { color: #DB1947; }
 	color: #D8D8D8;
 }
 
+
+/* ------------------------------------------------------------------ */
+/* f. guidelines
+/* ------------------------------------------------------------------ */
+
+#guidelines {
+   position: relative;
+   height: 100%;
+   width: 100%;
+/* background-image: url("https://78.media.tumblr.com/29fd1980a0f7ba293da1ed78dc16dca0/tumblr_oz9ex8gy1y1vrnhedo1_1280.png");
+   background-size: cover;
+   background-position: top left;
+*/ 
+padding: 10% 10% 10% 10%;
+   text-align: justify;
+   overflow: hidden;
+}
+
+
+#guidelines h1 {
+   font: Bold 30px/30px 'Montserrat', sans-serif;
+   color: #141418;
+}
+
+#guidelines ol {
+    font-size: 170%;
+}
+
+
+
+
+#guidelines p,b {
+   line-height: 130%;
+    font-size: 100%;
+    text-align: justify;
+}
+
+@media screen and (max-width: 600px){
+    #guidelines div p,b {
+   line-height: 105%; font-size: 15px; text-align: left;
+    }
+
+}
+
+#guidelines .profile-pic {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+}
+#guidelines .contact-details { width: 41.66667%; }
+#guidelines .download {
+   width: 58.33333%;
+   padding-top: 6px;
+}
+#guidelines .main-col { padding-right: 5%; }
+#guidelines .download .button {
+   margin-top: 6px;
+   background: #444;
+}
+#guidelines .download .button:hover {
+   background: #fff;
+   color: #2B2B2B;
+}
+#guidelines .download .button i {
+   margin-right: 15px;
+   font-size: 20px;
+}
+
+
+
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
 /* ------------------------------------------------------------------ */
