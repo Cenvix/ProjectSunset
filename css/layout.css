@@ -62,10 +62,13 @@ header .banner {
 header .banner-text { width: 100%; 
 font: 18px/1.9em 'Montserrat';
 }
-header .banner-text h1 {
-   font: bold 40px/1.9em 'Montserrat';
+header .banner-text .countdown h1 {
+   font: bold 35px/1.9em 'Montserrat';
    margin: 0 auto;
 }
+
+
+
 
 header .banner-text h2 {
    font: bold 30px/1.9em 'Montserrat';
@@ -544,6 +547,7 @@ ul#nav li.current a { color: #DB1947; }
     text-align: center;
     margin: 2% 5% 2% 5%;
     position: relative;
+    
 
 
     
@@ -802,12 +806,22 @@ padding: 10% 10% 10% 10%;
 
 
 #guidelines h1 {
-   font: Bold 30px/30px 'Montserrat', sans-serif;
+   font: Bold 40px/30px 'Montserrat', sans-serif;
    color: #141418;
+}
+
+@media screen and (max-width: 700px){
+    
+    #guidelines h1 {
+   font: Bold 20px/30px 'Montserrat', sans-serif;
+   color: #141418;
+}
+
 }
 
 #guidelines ol {
     font-size: 170%;
+    text-align: left;
 }
 
 
@@ -820,10 +834,39 @@ padding: 10% 10% 10% 10%;
 }
 
 @media screen and (max-width: 600px){
-    #guidelines div p,b {
+    
+    #guidelines ol {
+    font-size: 130%;
+    }
+    #guidelines p,b {
    line-height: 105%; font-size: 15px; text-align: left;
     }
 
+}
+
+#guidelines div ul.dash {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+
+}
+
+#guidelines div ul.dash > li {
+    line-height: 5px;
+}
+
+@media screen and (max-width: 900px){
+    
+    #guidelines div ul.dash > li {
+    line-height: 15px;
+}
+
+}
+#guidelines div ul.dash > li:before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
 }
 
 #guidelines .profile-pic {
