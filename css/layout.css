@@ -895,6 +895,181 @@ padding: 10% 10% 10% 10%;
 }
 
 
+/* ------------------------------------------------------------------ */
+/* f. submission_process
+/* ------------------------------------------------------------------ */
+
+#submission_process {
+   position: relative;
+   width: 100%;
+/* background-image: url("https://78.media.tumblr.com/29fd1980a0f7ba293da1ed78dc16dca0/tumblr_oz9ex8gy1y1vrnhedo1_1280.png");
+   background-size: cover;
+   background-position: top left;
+*/ 
+    padding: 50px;
+   text-align: justify;
+   overflow: hidden;
+    
+    
+    box-sizing: border-box;
+    
+    background-color: red;
+    
+    font: 25px/30px 'Montserrat', sans-serif;
+    
+}
+
+
+#submission_process .columns.left{
+    margin-top: 20px;
+    width: 50%;
+}
+
+#submission_process .columns.right{
+    margin-top: 20px;
+    width: 50%;
+}
+
+
+
+#submission_process a{
+    text-decoration: underline;
+    color: #DB1947;
+}
+
+
+#submission_process h1 {
+    font: Bold 250% 'Montserrat', sans-serif;
+    color: #DB1947;
+    margin: 0px;
+    padding:0 0 0 0;
+    max-width: 50%;
+    border-bottom: 3px solid #DB1947;
+}
+#submission_process h2 {
+   font: Bold 100% 'Montserrat', sans-serif;
+   color: #DB1947;
+}
+
+
+
+#submission_process ol {
+    text-align: left;
+    line-height: normal;
+    list-style-position: outside;
+}
+
+#submission_process ol li {
+    position: relative;
+    text-align: left;
+    line-height: normal;
+}
+
+
+
+
+#submission_process p,b {
+    font-size: 100%;
+    text-align: justify;
+}
+
+
+#submission_process div ul.dash {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1em;
+
+}
+
+#submission_process div ul.dash > li {
+    line-height: 5px;
+}
+
+#submission_process div ul.dash > li:before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
+}
+
+#submission_process img {
+    width: 20%; height: 20%;
+    margin: 15px;
+}
+#submission_process img.mob {
+    display: none;
+}
+
+#submission_process img.web {
+    display: inherit;
+}
+
+#submission_process #subBG{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    padding:30px;
+}
+
+#submission_process #subline{
+    position: absolute;
+    top: 10%;
+    height: 80%;
+    width: 0px;
+    left: 50%;
+    border-left:5px solid #DB1947;
+    z-index: 1;
+}
+@media screen and (max-width:600px){
+ 
+    #submission_process #subBG{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    padding:10px;
+    }
+    
+    #submission_process #subline{
+    position: relative;
+    top: 50%;
+        left: 0%;
+    width: 80%;
+        height: 20px;
+    border-top:5px solid #DB1947;
+        
+    border-left:0px solid #DB1947;
+    border-bottom:5px solid #DB1947;
+    z-index: 1;
+}
+    
+    #submission_process {
+     font: 12px/30px 'Montserrat', sans-serif;
+        padding: 10px;
+    
+    }
+
+    #submission_process img {
+    width: 30%; height: 20%;
+    margin: 10px;
+        
+        
+    }
+    
+    #submission_process img.mob {
+        display: inherit;
+    }
+    
+    #submission_process img.web {
+        display: none;
+    }
+
+}
+
+
 
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
