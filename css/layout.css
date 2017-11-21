@@ -913,7 +913,8 @@ padding: 10% 10% 10% 10%;
     
     box-sizing: border-box;
     
-    background-color: red;
+    background: url(elements/07-08_Submission/BG_RED.png);
+    background-size: cover;
     
     font: 25px/30px 'Montserrat', sans-serif;
     
