@@ -799,7 +799,7 @@ ul#nav li.current a { color: #DB1947; }
    background-size: cover;
    background-position: top left;
 */ 
-padding: 10% 10% 10% 10%;
+padding: 5% 10% 5% 10%;
    text-align: justify;
    overflow: hidden;
 }
@@ -824,11 +824,13 @@ padding: 10% 10% 10% 10%;
     text-align: left;
 }
 
-
+#guidelines ol li{
+    line-height: normal;
+}
 
 
 #guidelines p,b {
-   line-height: 130%;
+   line-height: normal;
     font-size: 100%;
     text-align: justify;
 }
@@ -839,7 +841,7 @@ padding: 10% 10% 10% 10%;
     font-size: 130%;
     }
     #guidelines p,b {
-   line-height: 105%; font-size: 15px; text-align: left;
+    line-height: 105%; font-size: 15px; text-align: left;
     }
 
 }
@@ -1070,11 +1072,72 @@ padding: 10% 10% 10% 10%;
 
 }
 
-
-
 /* ------------------------------------------------------------------ */
+/* g. rubric
+/* ------------------------------------------------------------------ */
+
+#rubric {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 5% 10% 5% 10%;
+    text-align: justify;
+    overflow: hidden;
+    font-size: 120%;
+}
+
+
+#rubric h1 {
+   font: Bold 40px/30px 'Montserrat', sans-serif;
+   color: #141418;
+}
+
+@media screen and (max-width: 700px){
+    
+    #rubric h1 {
+   font: Bold 30px/30px 'Montserrat', sans-serif;
+   color: #141418;
+}
+
+}
+
+#rubric h2 {
+   font: Bold italic 20px/30px 'Montserrat', sans-serif;
+   color: #141418;
+}
+
+#rubric table{
+    width: 80%;
+}
+
+#rubric ol {
+    font-size: 170%;
+    text-align: left;
+}
+
+#rubric ol li{
+    line-height: normal;
+}
+
+
+#rubric div ul.dash {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 25%;
+    text-align: left;
+
+}
+
+#rubric div ul.dash > li:before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* ------------------------------------------------------------------ 
 /* f. Call To Action Section
-/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ 
 
 #call-to-action {
    background: #212121;
@@ -1118,7 +1181,7 @@ call-to-action .button {
 	color:#fff;
    background: #0D0D0D;
 }
-*/
+
 #call-to-action .button:hover,
 #call-to-action .button:active {
    background: #FFFFFF;
@@ -1131,7 +1194,7 @@ call-to-action .button {
 
 /* ------------------------------------------------------------------
 /* g. Testimonials
-/* ------------------------------------------------------------------ */
+/* ------------------------------------------------------------------ 
 
 #testimonials {
    background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
@@ -1167,7 +1230,7 @@ call-to-action .button {
    color: #fff;
 }
 
-/*	Blockquotes */
+/*	Blockquotes 
 #testimonials blockquote {
    margin: 0 0px 30px 0px;
    padding-left: 0;
@@ -1192,6 +1255,8 @@ call-to-action .button {
 #testimonials blockquote cite:before { content: "\2014 \0020"; }
 #testimonials blockquote cite a,
 #testimonials blockquote cite a:visited { color: #8B9798; border: none }
+
+*/
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
