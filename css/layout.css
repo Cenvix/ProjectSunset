@@ -272,6 +272,27 @@ ul#nav li.current a { color: #DB1947; }
    font-size: 20px;
 }
 
+#about .scrolldown a {
+   position: absolute;
+   bottom: 30px;
+   left: 50%;
+   margin-left: -29px;
+   color: #fff;
+   display: block;
+   height: 42px;
+   width: 42px;
+   font-size: 42px;
+   line-height: 42px;
+   color: #fff;
+   border-radius: 100%;
+
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+}
+hea
+
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
@@ -1096,6 +1117,8 @@ padding: 5% 10% 5% 10%;
     #rubric h1 {
    font: Bold 30px/30px 'Montserrat', sans-serif;
    color: #141418;
+        padding-left: 10%;
+        padding-right: 10%;
 }
 
 }
