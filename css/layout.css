@@ -227,7 +227,8 @@ ul#nav li.current a { color: #DB1947; }
    background-size: cover;
    background-position: top left;
 */
-        padding: 5% 10% 0px 10%;
+        padding: 5% 10%;
+        padding-bottom: 0px;
    text-align: center;
    overflow: hidden;
 }
@@ -301,10 +302,19 @@ ul#nav li.current a { color: #DB1947; }
    transition: all .3s ease-in-out;
 }
 
-@media screen and (max-width:768px){
+#about iframe{
+    height:564px;
+}
+
+@media screen and (max-width:767px){
     #about .scrolldown a {
       display: none
     }
+    
+    #about iframe{
+    height:auto;
+        width: auto;
+}
 }
 
 /* ------------------------------------------------------------------ */
