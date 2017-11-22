@@ -38,8 +38,8 @@ header {
    background-position: bottom left;
    background-repeat: repeat;
     */
-   text-align: center;
-   overflow: hidden;
+   text-align: center;  
+    overflow: hidden;
 }
 
 /* vertically center banner section */
@@ -55,8 +55,9 @@ header .banner {
    margin: 0 auto;
    width: 85%;
    height: 90%;
-   padding-bottom: 30px;
+    padding-top: 40px;
    text-align: center;
+    position: relative;
 }
 
 header .banner-text { width: 100%; 
@@ -122,20 +123,24 @@ header .social li a { color: #fff; }
 header .social li a:hover { color: #11ABB0; }
 
 /* scrolldown link */
-header .scrolldown a {
+header .scrolldown{
    position: absolute;
+   bottom: -10px; 
+    width: 100%;
+    
+    text-align: center;
+}
+
+header .scrolldown a {
    bottom: 30px;
-   left: 50%;
-   margin-left: -29px;
    color: #fff;
-   display: block;
    height: 42px;
    width: 42px;
    font-size: 42px;
    line-height: 42px;
    color: #fff;
-   border-radius: 100%;
-
+    text-align: center;
+    
    -webkit-transition: all .3s ease-in-out;
    -moz-transition: all .3s ease-in-out;
    -o-transition: all .3s ease-in-out;
@@ -272,13 +277,15 @@ ul#nav li.current a { color: #DB1947; }
    font-size: 20px;
 }
 
+#about .scrolldown{
+    width: 100%;
+    
+    text-align: center;
+}
+
 #about .scrolldown a {
-   position: absolute;
    bottom: 30px;
-   left: 50%;
-   margin-left: -29px;
    color: #fff;
-   display: block;
    height: 42px;
    width: 42px;
    font-size: 42px;
@@ -291,8 +298,12 @@ ul#nav li.current a { color: #DB1947; }
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-hea
 
+@media screen and (max-width:768px){
+    #about .scrolldown a {
+      display: none
+    }
+}
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
@@ -750,14 +761,14 @@ hea
    margin-top: 12px;
 }
 #howtojoin h2 {
-   font: 30px 'opensans-semibold', sans-serif;
+   font: 30px 'Montserrat', sans-serif;
    color: #141418;
    margin-bottom: 6px;
 }
 
 @media screen and (orientation:landscape){
     #howtojoin h2 {
-        font: 3vw 'opensans-semibold', sans-serif;
+        font: 3vw 'Montserrat', sans-serif;
         color: #141418;
         margin-bottom: 6px;
     }
